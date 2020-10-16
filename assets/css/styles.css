@@ -54,9 +54,14 @@ p.card-text{
 
 .about_img{
   float: right;
+  margin-left: 60px;
+}
+
+.about_img img{
   height: auto;
   width: 225px;
   border-radius: 100%;
+  display: flex;
 }
 
 .about{
@@ -64,7 +69,7 @@ p.card-text{
   margin-bottom: 60px;
 }
 
-#best_friend{
+.red{
   color:#FF5D5D;
 }
 
