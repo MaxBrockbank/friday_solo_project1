@@ -6,6 +6,7 @@
 
 .card{
   background-color: #CECFCB;
+  height: 325px;
 }
 
 .about_img img{
@@ -16,4 +17,12 @@
 
 .about{
   margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 1000px){
+  .card{
+    height: 275px;
+  }
 }
