@@ -8,8 +8,12 @@
   background-color: #CECFCB;
 }
 
-.profile_pic{
+.about_img img{
   float: right;
   height: auto;
-  width: 300px;
+  width: 225px;
+}
+
+.about{
+  margin-top: 60px;
 }
