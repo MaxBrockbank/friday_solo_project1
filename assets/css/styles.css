@@ -8,3 +8,8 @@
   background-color: #CECFCB;
 }
 
+.profile_pic{
+  float: right;
+  height: auto;
+  width: 300px;
+}
