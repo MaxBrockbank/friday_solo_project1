@@ -1,12 +1,36 @@
-.hero{
-  width:90%;
-  margin: auto;
-  margin-top: 50px;
+@font-face{
+  font-family: Ubuntu;
+  src: url(assets/fonts/Ubuntu);
+}
+body{
+  background-color: #1C1C19;
+  color:#EEEEEE;
+  font-family: Ubuntu;
 }
 
+.jumbotron{
+  background-color:#EEEEEE ;
+  color:  #1C1C19;
+}
+
+.CTA{
+  background-color: #1C1C19;
+  color: #FADC17;
+  padding: 8px;
+  border: 1px solid #1C1C19;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.row{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .card{
-  background-color: #CECFCB;
+  background-color: #FF5D5D;
   height: 325px;
+}
+.card a{
+  color:#1C1C19 ;
 }
 
 .about_img img{
@@ -20,6 +44,9 @@
   margin-bottom: 60px;
 }
 
+#best_friend{
+  color: #FADC17;
+}
 
 @media screen and (max-width: 1000px){
   .card{
