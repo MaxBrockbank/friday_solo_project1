@@ -51,10 +51,6 @@ body{
   transition: .5s;
 }
 
-.row{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 .card{
   background-color: #FF5D5D;
   height: 400px;
@@ -97,6 +93,9 @@ p.card-text{
   .about_img img{
     display: block;
   }
+  .row{
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 992px){
@@ -109,11 +108,13 @@ p.card-text{
   }
   .about_img{
     margin: auto;
-    width: 100%;
-    padding: 10px;
+    width: 70%;
+    padding: 12px;
   }
-  #images{
-    width: 100%;
-    margin: 0;
+}
+
+@media screen and (max-width: 760px){
+  .about_img img{
+    margin-left: 50px;
   }
 }
