@@ -8,9 +8,30 @@ body{
   font-family: Ubuntu;
 }
 
-.jumbotron{
-  background-color:#EEEEEE ;
-  color:  #1C1C19;
+#vid{
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  object-fit: cover;
+}
+
+#overlay{
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  background-color: black;
+  opacity: 50%;
+}
+
+.hero{
+  width:100vw;
+  height:100vh;
+}
+
+.hero_text{ 
+  position: relative;
+  text-align: center;
+  top: 200px;
 }
 
 .CTA{
