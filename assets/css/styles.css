@@ -1,0 +1,21 @@
+.hero{
+  width:90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.hero_left{
+  float: left;
+  width: 50%;
+}
+
+.hero_right{
+  float: right;
+  width: 50%;
+}
+
+.profile_pic{
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+}
